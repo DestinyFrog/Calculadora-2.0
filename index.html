@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora</title>
+        <link type="text/css" href="./style.css" rel="stylesheet">
+        <script src="./index.js" type="text/javascript" defer></script>
+    </head>
+    <body>
+        <div class="CalcBox">
+            <div class="displayBox">
+                <textarea class="historic" id="historic"></textarea>
+                <input class="display" id="display">
+            </div>
+            <div class="keyboard">
+                <button class="btn" type="button" onclick="cl();">C</button>
+                <button class="btn" type="button" onclick="typ(7);">7</button>
+                <button class="btn" type="button" onclick="typ(4);">4</button>
+                <button class="btn" type="button" onclick="typ(1);">1</button>
+                <button class="btn" type="button" onclick="typ('-x');">-/+</button>
+                <button class="btn" type="button" onclick="typ('()')";>()</button>
+                <button class="btn" type="button" onclick="typ(8)">8</button>
+                <button class="btn" type="button" onclick="typ(5);">5</button>
+                <button class="btn" type="button" onclick="typ(2);">2</button>
+                <button class="btn" type="button" onclick="typ(0);">0</button>
+                <button class="btn" type="button" onclick="typ(' [ ] ')";>[]</button>
+                <button class="btn" type="button" onclick="typ(9)">9</button>
+                <button class="btn" type="button" onclick="typ(6);">6</button>
+                <button class="btn" type="button" onclick="typ(3);">3</button>
+                <button class="btn" type="button" onclick="typ('.');">,</button>
+                <button class="btn" type="button" onclick="typ('+')">+</button>
+                <button class="btn" type="button" onclick="typ('-')">-</button>
+                <button class="btn" type="button" onclick="typ('*')">*</button>
+                <button class="btn" type="button" onclick="typ('/')">/</button>
+                <button class="btn" type="button" onclick="typ('^')">^</button>
+                <button class="btn" type="button" onclick="typ('2 ¨')">2¨x</button>
+                <button class="btn" type="button" onclick="typ('3 ¨');">3¨x</button>
+                <button class="btn" type="button" onclick="del();">del</button>
+                <button class="btn" type="button" style="background-color: #ef4b4c;height: 40%;" onclick="Init();">=</button>
+            </div>
+        </div>
+    </body>
+</html>

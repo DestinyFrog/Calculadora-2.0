@@ -1,0 +1,72 @@
+body{
+    background-color: #fff685;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.CalcBox {
+    margin-top: 50px;
+    width: 300px;height: 510px;
+    background-color: #e0fbfc;
+
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 2%;
+}
+.displayBox {
+    width: 100%;height: 180px;
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.historic {
+    padding: 4px;
+    margin: 0px;
+    width: 95%; height: 68%;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: antiquewhite;
+    background-color: rgb(30, 30, 30);
+    border: 0px;
+    resize: none;
+}
+.display {
+    padding-right: 10px; padding-left: 10px;
+    width: 90%;height: 25%;
+    background-color: rgb(30, 30, 30);
+    border: 0px;margin: 0px;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: antiquewhite;
+    margin-bottom: 10px;
+}
+.keyboard {
+    width: 100%;height: 65%;
+    display: flex;
+    flex-wrap:wrap;
+    /* align-items: center; */
+    flex-direction: column;
+    
+}
+.btn {
+    width: 20%;height: 20%;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    /* border-radius: 25%; */
+
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    background-color: #e0fbfc;
+    color: #e0fbfc;
+    padding: 0px;
+
+    background-color: rgb(30, 30, 30);
+}
