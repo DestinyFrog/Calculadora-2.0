@@ -12,7 +12,7 @@ function typ(ch){
         let antValue = history.textContent;
         history.textContent = '';
         history.textContent += display.value+"\n"+antValue;
-        del();
+        cl();
     }
 
     if(ch == '()'){
