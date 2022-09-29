@@ -8,12 +8,12 @@ function cl(){
     display.value = '';
 }
 function typ(ch){
-    if(display.value.includes('=')){
+    /*if(display.value.includes('=')){
         let antValue = history.textContent;
         history.textContent = '';
         history.textContent += display.value+"\n"+antValue;
         cl();
-    }
+    }*/
 
     if(ch == '()'){
         if(display.value.includes('(') == false){
@@ -55,6 +55,7 @@ function Init (){
     filter('*');
     filter('-');
     filter('+');
+    filter('<=>');
 
     let result = numbers[0];
     let antValue = history.textContent;
@@ -146,6 +147,8 @@ function Operate(operation, nums){
             return a / b
         case '^':
             return Math.pow(a, b)
+        case '<=>':
+            return a == b;
         case 'V':
             if(a === 2){
                 return Math.sqrt(b);
