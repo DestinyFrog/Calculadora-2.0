@@ -49,7 +49,7 @@ function Init (){
     })
 
     filterBrackets('(',')');
-    filter('¨');
+    filter('V');
     filter('^');
     filter('/');
     filter('*');
@@ -146,7 +146,7 @@ function Operate(operation, nums){
             return a / b
         case '^':
             return Math.pow(a, b)
-        case '¨':
+        case 'V':
             if(a === 2){
                 return Math.sqrt(b);
             }else{
